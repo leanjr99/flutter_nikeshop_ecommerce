@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Container(
-            height: 320,
+            height: 350,
             margin: EdgeInsets.symmetric(vertical: 16),
             child: ListView.builder(
               itemCount: shoeList.length,

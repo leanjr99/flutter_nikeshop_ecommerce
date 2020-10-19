@@ -60,9 +60,9 @@ class _DetailPageState extends State<DetailPage> {
                             ),
                           ),
                         ),
-                        SizedBox(height: 16),
+                        SizedBox(height: 4),
                         _buildRating(),
-                        SizedBox(height: 24),
+                        SizedBox(height: 4),
                         Text(
                           "DETAILS",
                           style: TextStyle(
@@ -70,14 +70,14 @@ class _DetailPageState extends State<DetailPage> {
                             fontSize: 18,
                           ),
                         ),
-                        SizedBox(height: 16),
+                        SizedBox(height: 10),
                         Text(
                           "${widget.shoeModel.desc}",
                           style: TextStyle(
                             color: Colors.black38,
                           ),
                         ),
-                        SizedBox(height: 24),
+                        SizedBox(height: 16),
                         Text(
                           "COLOR OPTIONS",
                           style: TextStyle(
